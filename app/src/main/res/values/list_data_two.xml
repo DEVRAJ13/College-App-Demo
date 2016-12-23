@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Classes">
+        <item>Electronics and Communication Engineering</item>
+        <item>Mechanical Engineering</item>
+    </string-array>
+</resources>

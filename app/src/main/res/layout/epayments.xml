@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/epay"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/student"
+        android:onClick="onClick55"
+        android:layout_weight="0.07" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#080808" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/admin"
+        android:onClick="onClick66" />
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="100dp"
+        android:background="#080808"
+        android:layout_weight="108.50" />
+
+
+
+</LinearLayout>

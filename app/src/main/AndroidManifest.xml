@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ghec.shekharmandhotra.ghec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ghec_logo"
+        android:label="Ghec"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Departments"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Departments" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Email"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.EMAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Menu"
+            android:label="@string/courseone_name">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuTwo"
+            android:label="@string/course_name">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.MENUTWO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WebSite"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.WEBSITE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Info"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.INFO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComputerScience"
+            android:label="Computer Science Engineering">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.COMPUTERSCIENCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".Civil"
+        android:label="Civil Engineering">
+        <intent-filter>
+            <action android:name="com.ghec.shekharmandhotra.ghec.CIVIL" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+        android:name=".Electronics"
+        android:label="Electronics Engineering">
+        <intent-filter>
+            <action android:name="com.ghec.shekharmandhotra.ghec.Electronics" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".Ece"
+            android:label="Electronics Engineering"
+            >
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Ece" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mechanical"
+            android:label="Mechanical Engineering">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Mechanical" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Me"
+            android:label="Mechanical Engineering">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Me" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Electrical"
+            android:label="Electrical Engineering">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Electrical" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InformationTechnology"
+            android:label="IT Engineering">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.InformationTechnology" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.MapsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Payments"
+            android:label="e-Payments">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Payments" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Student"
+            android:label="Student Online Portal">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Student" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin"
+            android:label="Admin Online Portal">
+            <intent-filter>
+                <action android:name="com.ghec.shekharmandhotra.ghec.Admin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

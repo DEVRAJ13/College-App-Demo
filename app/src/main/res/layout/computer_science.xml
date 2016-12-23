@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/cse_details"
+                        android:id="@+id/textView2"
+                        android:layout_gravity="center"
+                        android:textColor="#ff000000"
+                        android:fontFamily="Calibri (Body)"/>
+
+                    <TableLayout
+                        android:paddingTop="30dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <TableRow>
+                            <ImageButton
+                                android:layout_marginLeft="20dp"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:background="@drawable/seats"
+                                />
+                            <ImageButton
+                                android:layout_marginLeft="20dp"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:background="@drawable/lateralseats"
+                                />
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+                </ScrollView>
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/txt">
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csed"
+                                    />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csedd"/>
+                            </TableRow>
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csea"
+                                    />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/cseaa"/>
+                            </TableRow>
+
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/cseb"/>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csebb"/>
+                            </TableRow>
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csec"/>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csecc"/>
+                            </TableRow>
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csee"
+                                    />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/cseee"/>
+                            </TableRow>
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csef"
+                                    />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/cseff"/>
+                            </TableRow>
+                            <TableRow>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/cseg"
+                                    />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/csegg"/>
+                            </TableRow>
+                        </TableLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+
+
+</LinearLayout>

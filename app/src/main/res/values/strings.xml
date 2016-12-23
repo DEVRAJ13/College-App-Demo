@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ghec</string>
+    <string name="course_name">M.Tech</string>
+    <string name="courseone_name">B.Tech</string>
+
+    <string name="cse_details">Computer Science and Engineering branch imparts education in hardware and software relating to computer which is an integral part of almost all fields and of our lives. For the first three years students study variety of subjects which make them industry ready. In the last year theoretical knowledge that they have learnt will be put to practice by a project. The results of this project will be published and presented in scientific journals and conferences. </string>
+    <string name="ce_details">"In past years, civil engineers focused on design and construction of new facilities, such as buildings, bridges and highways, water treatment and environmental facilities, foundations and tunnels. "
+       " Today's civil engineer not only has to design new facilities, but must also analyze the effects of deterioration on infrastructure elements, consider system interdependencies and evaluate life-cycle impacts while also considering environmental and economic sustainability within the context of society."
+        "Civil engineers must be equipped with in-depth knowledge of traditional, fundamental principles and new technologies in order to address the complex, interdisciplinary problems faced within society."
+       " The department gives the students the necessary background to success within this new context and to become the future leaders of the profession."</string>
+    <string name="ece_details">"Electronics and Communication Engineering (ECE) deals with acquiring knowledge of design and development in Electronic Devices, IC Design, Microprocessors, Analog and Digital Circuits, Satellite and Microwave Communication, Mobile Communication, and Fiber Optics Communication."
+        "ECE drives our world of new technologies in information technology, transportation, internet, wireless communication, telephones, aviation, agriculture, remote sensing, mobiles, robotics, displays, TV, appliances, computers, satellites, medical, security, energy, aerospace, vehicles, arts, theater, movies, cartography, etc. "</string>
+    <string name="me_details">"Mechanical engineering encompassing fundamental technologies supports a great number of industries."
+        "It is an all-round technological field that covers a wide area of expertise including research and development, design, and production."
+        " Mechanical engineering is in the forefront of establishing an ever greater coexistence between people and machines in the 21st century. The aim is to acquire the essential basic fundamental knowledge for the fields of industrial technology and mechanical engineering through design, control, materials, process, and fluid mechanics; thus the aim is to improve fundamental knowledge and applied ability through emphasized practice."</string>
+    <string name="ee_details">"Electrical Engineering is one of the earliest to start among the core subjects."
+        "Electrical engineers are more than just system designers and developers. They are expected to be involved in projects from conceptualization, design, implementation, testing, handover, and maintenance. Feasibility studies for new assignments and cost analysis are some of their duties."
+        "Electrical engineers have the option to specialize in project management, research and development or consultancy.Electrical Engineering graduates can work in such fields as computer engineering, energy engineering, transport engineering, communications engineering and media.Thus the Electrical Engineering stream is designed to provide you with several options to choose from for your later years."
+        "Electrical Engineering use mathematics, electronics, computing techniques and physics to solve real world problems." </string>
+    <string name="it_details">"Information technology, while an important area of study in its own right, is having a major impact across all curriculum areas."
+        "Easy worldwide communication provides instant access to a vast array of data, challenging assimilation and assessment skills. Rapid communication, plus increased access to IT in the home, at work, and in educational establishments, could mean that learning becomes a truly lifelong activity—an activity in which the pace of technological change forces constant evaluation of the learning process itself. concerned with preparing human resources to play a leading role in the continuing adventure of modern automated systems, computers, and communications – researching, designing, building and marketing the next generation of electronic and communication products." </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Ghec</string>
+
+</resources>
